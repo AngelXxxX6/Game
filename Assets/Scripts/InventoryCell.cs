@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
+
 class InventoryCell : MonoBehaviour
 {
     [SerializeField] private Text _nameField;
