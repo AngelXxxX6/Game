@@ -24,6 +24,6 @@ public class MobPrefab : MonoBehaviour, Mob
     {
         Vector2 vectorToPlayer = _player.transform.position - transform.position;
         transform.rotation = Quaternion.FromToRotation(Vector2.right, vectorToPlayer);
-        GetComponent<Rigidbody2D>().velocity = transform.right;
+        GetComponent<Rigidbody2D>().velocity = transform.right * speed;
     }
 }
