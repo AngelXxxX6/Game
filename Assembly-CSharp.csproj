@@ -64,10 +64,10 @@
     <Compile Include="Assets\Scripts\Guns\Gun.cs" />
     <Compile Include="Assets\Scripts\Mobs\Mob.cs" />
     <Compile Include="Assets\Scripts\Menu\StartGame.cs" />
+    <Compile Include="Assets\Scripts\Mobs\MobPrefab.cs" />
     <Compile Include="Assets\Scripts\Events.cs" />
     <Compile Include="Assets\Scripts\Guns\AssetGun.cs" />
     <Compile Include="Assets\Scripts\PlayerControll\ChangeStateMove.cs" />
-    <Compile Include="Assets\Scripts\Mobs\MobPrefab.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
